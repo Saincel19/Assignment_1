@@ -1,0 +1,670 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'sans-serif', 'arial';
+}
+.navbar{
+    width: 100%;
+    height: 45px;
+    background-color: #ffffff;
+    box-shadow: 0 0 1px 2px #f0f1f3;
+}
+.navbar .icons .icons-items #search-holder{
+    width: 38vh;
+    height: 37px;
+    background-color: #f1f2f7;
+    border-radius: 18px;
+    margin-left: 10px;
+    padding: 10px;
+    color: grey;
+}
+.navbar .icons .icons-items{
+    display: flex;
+    margin-left: 14px;
+    align-items: center;
+}
+.navbar .icons .icons-items #search-holder .ic1{
+    padding-right: 5px;
+}
+.navbar .icons .icons-items .icons-center{
+    font-size: 30px;
+    position: relative;
+    left: 80px;
+}
+.navbar .icons .icons-items .icons-center .ic2{
+    margin-left: 20px;
+    border-bottom: 3px solid #3b5999;
+    color: #3b5999;
+}
+.navbar .icons .icons-items .icons-center .ic3{
+    margin-left: 100px;
+}
+.navbar .icons .icons-items .icons-center .ic4{
+    margin-right: 180px;
+    margin-left: 100px;
+}
+.navbar .icons .icons-items .icons-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 250px;
+    font-size: 25px;
+}
+.navbar .icons .icons-items .icons-right .ic5{
+    margin-right: 10px;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: #f2f3f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .icons .icons-items .icons-right .ic6{
+    margin-right: 10px;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-color: #f2f3f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* BANNER STARTS HERE */
+.banner{
+    width: 100%;
+    height: 91.5vh;
+    display: flex;
+    padding-top: 18px;
+    background-color: #f1f2f7;
+}
+.banner .left{
+    width: 26%;
+    height: 91.5vh;
+    background-color: #f1f2f7;
+}
+.banner .left .part1{
+    display: flex;
+    justify-content: space-between;
+}
+.banner .left .part1 h3{
+    padding-left: 10px;
+}
+.banner .left .part1 p{
+    color: #3b5999;
+    padding-right: 40px;
+    font-size: 15px;
+}
+.banner .left .part2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.banner .left .part2 .user-img2{
+    padding-left: 10px;
+}
+.banner .left .part2 p{
+    font-size: 15px;
+    padding-right: 185px;
+    padding-top: 13px;
+    font-weight: bold;
+}
+.banner .left .part2 .don{
+    padding-right: 35px;
+    padding-top: 12px;
+}
+.banner .left .part3{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 13px;
+    color: grey;
+}
+.banner .left .part3 .frd{
+    padding-left: 30px;
+    font-size: 18px;
+}
+.banner .left .part3 p{
+    padding-right: 180px;
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+.banner .left hr{
+    margin: 18px 37px 18px 17px;
+}
+.banner .left .part4{
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 6vh;
+}
+.banner .left .part4 .ico1{
+    font-size: 25px;
+    padding-left: 15px;
+}
+
+.banner .left .part4 .part4-items1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+ }
+.banner .left .part4 .part4-items1 p{
+    padding-right: 195px;
+  }
+.banner .left .part4 .part4-items2{
+    display: flex;
+    justify-content: space-between;
+}
+.banner .left .part4 .part4-items2 .ico1{
+    padding-top: 10px;
+    color: #983b54;
+}
+.banner .left .part4 .part4-items2 p{
+    padding-right: 290px;
+}
+.banner .left .part4 .part4-items3{
+    display: flex;
+    justify-content: space-between;
+}
+.banner .left .part4 .part4-items3 .ico1{
+    padding-top: 10px;
+    color: #8a2aad;
+}
+.banner .left .part4 .part4-items3 p{
+    padding-right: 295px;
+}
+.banner .left .part4 .part4-items4{
+    display: flex;
+    justify-content: space-between;
+}
+.banner .left .part4 .part4-items4 .ico1{
+    padding-top: 10px;
+}
+.banner .left .part4 .part4-items4 p{
+    padding-right: 295px;
+}
+.banner .left .part4 .part4-items4 .ico1{
+    color: #c6a423;
+}
+.banner .left .part4 .part4-items5{
+    display: flex;
+    justify-content: space-between;
+}
+.banner .left .part4 .part4-items5 .ico1{
+    padding-top: 10px;
+    color: #2a6be3;
+}
+.banner .left .part4 .part4-items5 p{
+    padding-right: 285px;
+}
+.banner .left .part4 .part4-items6{
+    display: flex;
+    justify-content: space-between;
+}
+.banner .left .part4 .part4-items6 .ico1{
+    padding-top: 10px;
+}
+.banner .left .part4 .part4-items6 p{
+    padding-right: 209px;
+}
+.banner .left .part4 .part4-items6 .ico1{
+    color: #94a0a4;
+}
+.banner .left .part4 .part4-items7{
+    display: flex;
+    justify-content: space-between;
+}
+.banner .left .part4 .part4-items7 .ico1{
+    padding-top: 10px;
+}
+.banner .left .part4 .part4-items7 p{
+    padding-right: 200px;
+}
+.banner .left .part4 .part4-items7 .ico1{
+    color: #c6a423;
+}
+.banner .left .part4 .part4-items7 .don2{
+    padding-top: 12px;
+    padding-right: 40px;
+}
+
+.banner .left .part4 .part4-items6{
+    display: flex;
+}
+.banner .left .part4 .part4-items7{
+    display: flex;
+}
+.banner .left .part5{
+    padding-top: 155px;
+    padding-left: 10px;
+    font-size: 12px;
+}
+/* banner center starts here */
+.banner .center{
+    width: 46%;
+    height: 91.5vh;
+    background-color: #f1f2f7;
+}
+.banner .center .story{
+    width: 100%;
+    height: 32vh;
+    background-color: #f1f2f7;
+    display: flex;
+    justify-content: space-between;
+}
+.banner .center .story .story1{
+    width: 19%;
+    height: 29vh;
+    background-image: url(./images/uche.jpg);
+    background-size: cover;
+    border-radius: 5%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+    padding-left: 12px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.banner .center .story .story1:hover{
+    transform: scale(1.5);
+    transition: 1s ease;
+}
+.banner .center .story .story1 p{
+    padding-bottom: 5px;
+}
+.banner .center .story .story1 .circle1{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    border: 2px solid #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner .center .story .story1 .circle1 .ico{
+    color: #ffffff;
+}
+.banner .center .story .story2{
+    width: 19%;
+    height: 29vh;
+    background-image: url(./images/mike.jpg);
+    background-size: cover;
+    border-radius: 5%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+    padding-left: 12px;
+    color: #ffffff;
+}
+.banner .center .story .story2 p{
+    padding-bottom: 5px;
+}
+.banner .center .story .story2 .circle2{
+    width: 45px;
+    height: 45px;
+    background-image: url(./images/too.jpg);
+    background-size: 100% 50px;
+    border-radius: 100%;
+    border: 2px solid #ffffff;
+}
+.banner .center .story .story3{
+    width: 19%;
+    height: 29vh;
+    background-image: url(./images/eze2.jpg);
+    background-size: cover;
+    border-radius: 5%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+    padding-left: 12px;
+    color: #ffffff;
+}
+.banner .center .story .story3 p{
+    padding-bottom: 5px;
+}
+.banner .center .story .story3 .circle3{
+    width: 45px;
+    height: 45px;
+    background-image: url(./images/good.jpg);
+    background-size: 80% 40px;
+    border-radius: 100%;
+    border: 2px solid #ffffff;
+}
+.banner .center .story .story4{
+    width: 19%;
+    height: 29vh;
+    background-image: url(./images/good2.jpg);
+    background-size: cover;
+    border-radius: 5%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+    padding-left: 12px;
+    color: #ffffff;
+}
+.banner .center .story .story4 p{
+    padding-bottom: 5px;
+}
+.banner .center .story .story4 .circle4{
+    width: 45px;
+    height: 45px;
+    background-image: url(./images/Eze.jpg);
+    background-size: 100% 40px;
+    border-radius: 100%;
+    border: 2px solid #ffffff;
+}
+.banner .center .story .story5{
+    width: 19%;
+    height: 29vh;
+    background-image: url(./images/good3.jpg);
+    background-size: cover;
+    border-radius: 5%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+    padding-left: 12px;
+    color: #ffffff;
+}
+.banner .center .story .story5 p{
+    padding-bottom: 5px;
+}
+.banner .center .story .story5 .circle5{
+    width: 45px;
+    height: 45px;
+    background-image: url(./images/good4.jpg);
+    background-size: 100% 40px;
+    border-radius: 100%;
+    border: 2px solid #ffffff;
+}
+/* story ends here */
+
+.banner .center .ur-mind{
+    width: 100%;
+    height: 15vh;
+    background-color: #ffffff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid white;
+}
+.banner .center .ur-mind .container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.banner .center .ur-mind .container .user-img2{
+    margin-left: 10px;
+}
+.banner .center .ur-mind .container #ur-mind{
+    width: 88%;
+    height: 38px;
+    margin-right: 10px;
+    border-radius: 15px;
+    padding-left: 10px;
+    background-color: #f1f2f7;
+    border: none;
+}
+.banner .center .ur-mind .container2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.banner .center .ur-mind .container2 .item1{
+    display: flex;
+    padding-left: 30px;
+}
+.banner .center .ur-mind .container2 .item1 .icon1{
+    color: #87cf9b;
+    padding-right: 5px;
+}
+.banner .center .ur-mind .container2 .item2{
+    display: flex;
+    padding-left: 30px;
+}
+.banner .center .ur-mind .container2 .item2 .icon2{
+    color: #3b5999;
+    padding-right: 5px;
+}
+.banner .center .ur-mind .container2 .item3{
+    display: flex;
+    padding-right: 30px;
+}
+.banner .center .ur-mind .container2 .item3 .icon3{
+    color: #f1e27b;
+    padding-right: 8px;
+}
+.banner .center .section{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-top: 10px;
+    background-color: #ffffff;
+}
+.banner .center .section .itm1{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.banner .center .section .itm1 .itm1-child{
+    padding-left: 10px;
+}
+.banner .center .section .itm1 .itm1-child .ic{
+    font-size: 13px;
+}
+.banner .center .section .itm2{
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+.banner .center .picture{
+    width: 100%;
+    height: 31vh;
+    background-image: url(./images/fruits.jpg);
+    background-size: cover;
+}
+
+/* banner right starts here */
+.banner .right{
+    width: 28%;
+    height: 91.5vh;
+    padding-left: 45px;
+    background-color: #f1f2f7;
+}
+.banner .right .part2{
+    padding-top: 10px;
+    display: flex;
+}
+.banner .right .part2 .part2-items .chima{
+    font-size: 15px;
+    padding-left: 15px;
+    font-weight: bold;
+}
+.banner .right .part2 .part2-items .para{
+    font-size: 13px;
+    padding-left: 15px;
+    padding-top: 3px;
+}
+.banner .right .part3{
+    padding-left: 55px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.banner .right .part3:hover{
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+.banner .right hr{
+    margin-right: 25px;
+    color: #e6e7ec;
+}
+.banner .right .part4{
+    padding-top: 10px;
+}
+.banner .right .part5{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.banner .right .part5 .gi{
+    font-size: 30px;
+    color: #1391df;
+    padding-left: 5px;
+}
+.banner .right .part5 .para{
+    font-size: 13px;
+    padding-left: 17px;
+    padding-top: 3px;
+}
+.banner .right .part6{
+    padding-top: 10px;
+}
+.banner .right .part7{
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    font-weight: bold;
+}
+.banner .right .part7 .part7-item1{
+    display: flex;
+    padding-top: 10px;
+}
+.banner .right .part7 .part7-item1 p{
+    padding-left: 10px;
+    padding-top: 14px;
+}
+.banner .right .part7 .part7-item1 .contact1{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 2px solid #3b5999;
+    background-image: url(./images/con1.jpg);
+    background-size: cover;
+}
+.banner .right .part7 .part7-item2{
+    display: flex;
+    padding-top: 10px;
+}
+.banner .right .part7 .part7-item2 p{
+    padding-left: 10px;
+    padding-top: 14px;
+}
+.banner .right .part7 .part7-item2 .contact2{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-image: url(./images/con2.jpg);
+    background-size: cover;
+    position: relative;
+}
+.banner .right .part7 .part7-item2 .contact2 .dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #257625;
+    position: absolute;
+    bottom: -2px;
+    left: 25px;
+    box-shadow: 2px 2px 2px 2px #ffffff;
+}
+.banner .right .part7 .part7-item3{
+    display: flex;
+    padding-top: 10px;
+}
+.banner .right .part7 .part7-item3 p{
+    padding-left: 10px;
+    padding-top: 14px;
+}
+.banner .right .part7 .part7-item3 .contact3{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-image: url(./images/con3.jpg);
+    background-size: cover;
+    position: relative;
+}
+.banner .right .part7 .part7-item3 .contact3 .dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #257625;
+    position: absolute;
+    bottom: -2px;
+    left: 25px;
+    box-shadow: 2px 2px 2px 2px #ffffff;
+}
+.banner .right .part7 .part7-item4{
+    display: flex;
+    padding-top: 10px;
+}
+.banner .right .part7 .part7-item4 p{
+    padding-left: 10px;
+    padding-top: 14px;
+}
+.banner .right .part7 .part7-item4 .contact4{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 2px solid #3b5999;
+    background-image: url(./images/con4.jpg);
+    background-size: cover;
+}
+.banner .right .part7 .part7-item5{
+    display: flex;
+    padding-top: 10px;
+}
+.banner .right .part7 .part7-item5 p{
+    padding-left: 10px;
+    padding-top: 14px;
+}
+.banner .right .part7 .part7-item5 .contact5{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-image: url(./images/con5.jpg);
+    background-size: cover;
+    position: relative;
+}
+.banner .right .part7 .part7-item5 .contact5 .dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #257625;
+    position: absolute;
+    bottom: -2px;
+    left: 25px;
+    box-shadow: 2px 2px 2px 2px #ffffff;
+}
+.banner .right .part7 .part7-item6{
+    display: flex;
+    padding-top: 10px;
+}
+.banner .right .part7 .part7-item6 p{
+    padding-left: 10px;
+    padding-top: 14px;
+}
+.banner .right .part7 .part7-item6 .contact6{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-image: url(./images/con6.jpg);
+    background-size: cover;
+}
+.banner .right .part7 .part7-item6 .conta{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    box-shadow: 2px 2px 2px 2px grey;
+    margin-left: 200px;
+}
+.banner .right .part7 .part7-item6 .ic{
+    font-size: 20px;
+}
